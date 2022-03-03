@@ -13,14 +13,16 @@ public class Objective7Lab5 {
       System.out.println();
 
       selection = scanner.nextInt();
+
       if(selection == 1){
         System.out.println("Hello World");
       } else if(selection == 2){
       System.out.println("Apple, Banana, Coconut");
-      } else {
+    } else if (selection == 3){
       System.out.println("Goodbye");
+      break;
     }
+  }
     scanner.close();
-    }
   }
 }
