@@ -90,7 +90,7 @@ public class Objective9Lab5 {
   // to pay based on the total of the two parameters. Use a tax rate of 8.31%
   // (Not a grand total, just the total taxes.  Refer to "Expected Output")
   public static double calcTax(double x, double y){
-    double tax = ((x + y) * 0.831);
+    double tax = ((x + y) * 0.0831);
     return tax;
     }
 
